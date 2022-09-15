@@ -51,3 +51,5 @@ print("Yayy you made it")
 for i in izmaksas:
     summa += i
 print("Kopējais grīdas segums izmaksās", summa, "eiro.")
+izmaksas.append(summa, Afton)
+print(izmaksas)
