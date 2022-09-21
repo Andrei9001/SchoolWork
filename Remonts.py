@@ -1,5 +1,3 @@
-import sys
-
 def trying(x):
     try:
         x = float(x)
