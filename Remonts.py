@@ -35,7 +35,7 @@ while Afton == True:
         cenas = round(cena, 2)
         izmaksas.append(cenas)
         print("Lai pārklātu doto telpu, segums maksās {} eiro".format(cenas))
-        print(izmaksas)
+        #print(izmaksas)
         turp = int(input("Aprēķināt papildus telpām (1) vai summēt izmaksas(2)? "))
         if turp == 1:
             continue
@@ -45,9 +45,13 @@ while Afton == True:
 
     elif maina == "ne": continue
 
-print("Yayy you made it")
+#print("Yayy you made it")
 for i in izmaksas:
     summa += i
 print("Kopējais grīdas segums izmaksās", summa, "eiro.")
-izmaksas.append(summa, Afton)
-print(izmaksas)
+izmaksas.append(summa)
+#print(izmaksas)
+
+Ninjago ="Nopērc Ninjago lego komplektu tagad un saņem 5% atlaidi"
+
+print(Ninjago.upper())
