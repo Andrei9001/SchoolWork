@@ -55,3 +55,4 @@ izmaksas.append(summa)
 Ninjago ="Nopērc Ninjago lego komplektu tagad un saņem 5% atlaidi"
 
 print(Ninjago.upper())
+print("This is the greatest offer you will ever get".upper())
