@@ -10,18 +10,18 @@ apgalv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 apg1 = []   #delete?
 sk =[]
 ref = []
-diap = [0,19,22,99]
+diap = [1,20,22,99]
 
 #Funkcijas======================================
-def teikums(x, y):
-    while len(sk) < 2:  #nejausi izvelas liniju
+def teikums(x, y, z):
+    while len(sk) < z:  #nejausi izvelas liniju
         num = random.randint(x,y)
         if num in sk:   #parbauda
             continue
         else: 
             sk.append(num)  #pievieno izlieototo sarakstam
             apg1.append(lasit[num])
-            teikums(diap[2],diap[3])
+            teikums(diap[2], diap[3], ref[1])
 
 #Darbības========================================
 path = dir+path0.replace(" ","")
@@ -41,7 +41,10 @@ print(Divd)'''
 for j in range(20):
     ref.append(len(ref)*2)
 
-
-teikums(diap[0], diap[1])
+print(diap[0], diap[1])
+teikums(diap[0], diap[1], ref[1])
+print(sk)
+print(apg1)
+teikums(diap[2], diap[3], ref[2])
 print(sk)
 print(apg1)
