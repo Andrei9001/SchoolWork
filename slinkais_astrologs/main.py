@@ -5,6 +5,11 @@ import random
 dienas = ["Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena", "Svētdiena"]
 d = 0
 
+with open('teikumi.txt', 'r') as f:
+    lines = f.readlines()
+
+
+
 def nedelas_horoskopi():
     return
 
@@ -14,9 +19,9 @@ def nedelas_horoskopi():
     print(dienas[d])
     d += 1'''
     
-with open('teikumi.txt') as f:
-    lines = f.readlines()
-    print(lines, "end=\n")
 
+for i in range(100): 
+    print((lines[d].strip()))
+    d +=1
 
 
