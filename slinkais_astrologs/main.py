@@ -14,7 +14,9 @@ Divd = []
 def nedelas_horoskopi():
     return
 
-
+with open('teikumi.txt', "r") as f:
+    teik = f.readlines()
+print(teik)
 
 with open('teikumi.txt', "r") as f:
     for i, rinda in enumerate(f):
