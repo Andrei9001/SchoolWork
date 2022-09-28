@@ -4,9 +4,10 @@ import random
 #Globālie mainīgie
 dienas = ["Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena", "Svētdiena"]
 d = 0
+apgalv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+Divd = []
 
-with open('teikumi.txt', 'r') as f:
-    lines = f.readlines()
+
 
 
 
@@ -15,13 +16,13 @@ def nedelas_horoskopi():
 
 
 
-'''for i in dienas:
-    print(dienas[d])
-    d += 1'''
-    
+with open('teikumi.txt', "r") as f:
+    for i, rinda in enumerate(f):
+        if i in apgalv:
+            Divd.append(rinda.strip())
+        elif i > 10:
+            break
+print(Divd)
 
-for i in range(100): 
-    print((lines[d].strip()))
-    d +=1
 
 

@@ -1,4 +1,4 @@
-Tests   1
+POZITĪVI APGALVOJUMI:
 Tests	2
 Tests	3
 Tests	4
@@ -18,8 +18,8 @@ Tests	17
 Tests	18
 Tests	19
 Tests	20
-Tests	21
-Tests	22
+
+Negaīvi apgalvojumi
 Tests	23
 Tests	24
 Tests	25
