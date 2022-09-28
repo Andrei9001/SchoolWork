@@ -1,4 +1,4 @@
-POZITĪVI APGALVOJUMI:
+DIVDABJA TEICINI:
 Tests	2
 Tests	3
 Tests	4
@@ -19,7 +19,7 @@ Tests	18
 Tests	19
 Tests	20
 
-Negaīvi apgalvojumi
+APGALVOJUMI:
 Tests	23
 Tests	24
 Tests	25
