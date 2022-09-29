@@ -13,16 +13,19 @@ sk =[]
 ref = []
 diap = [1,20,22,41,44,63]
 riki = 0
+garums =[0,2]
+parbaude =[] #  temp
 #Funkcijas======================================
 def teikums(x, y, z):
     while len(sk) < z:  #nejausi izvelas liniju
         num = random.randint(x,y)
-        if num in sk:   #parbauda
+        if num in parbaude:   #parbauda
             continue
         else: 
+            parbaude.append(num)
             sk.append(num)  #pievieno izlieototo sarakstam
             apg1.append(lasit[num])
-            teikums(diap[2], diap[3], ref[1])
+            teikums(diap[2], diap[3], ref[2])
     
     
 
@@ -43,7 +46,7 @@ print(Divd)'''
 
 for j in range(20):
     ref.append(len(ref)*2)
-
+#   ref=[0,2,4,6,8,10]
 
 
 
@@ -52,10 +55,16 @@ for j in range(20):
 
 for m in zodiaks:
     riki=random.randint(0,1)
+    treici=random.choice(garums)
     print(m)
-    teikums(diap[0], diap[1], ref[1])
-    teikums(diap[2], diap[3], ref[2])
-    if riki == 1: teikums(diap[4],diap[5],5)
-    print(sk, apg1)
+    if treici == 0:
+        teikums(diap[0], diap[1], ref[2])
+        teikums(diap[2], diap[3], ref[3])
+    elif treici == 2:
+        teikums(diap[0], diap[1], ref[3])
+        teikums(diap[2], diap[3], ref[4])
+    if riki == 1: teikums(diap[4],diap[5],7+treici)
+    print(apg1,"\n")
     sk.clear()
     apg1.clear()
+    print(parbaude)
