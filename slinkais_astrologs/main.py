@@ -25,7 +25,7 @@ def teikums(x, y, z):
             parbaude.append(num)
             sk.append(num)  #pievieno izlieototo sarakstam
             apg1.append(lasit[num])
-            teikums(diap[2], diap[3], ref[2])
+            teikums(diap[4], diap[5], ref[2])
     
     
 
@@ -59,11 +59,11 @@ for m in zodiaks:
     print(m)
     if treici == 0:
         teikums(diap[0], diap[1], ref[2])
-        teikums(diap[2], diap[3], ref[3])
+        teikums(diap[4], diap[5], ref[3])
     elif treici == 2:
         teikums(diap[0], diap[1], ref[3])
-        teikums(diap[2], diap[3], ref[4])
-    if riki == 1: teikums(diap[4],diap[5],7+treici)
+        teikums(diap[4], diap[5], ref[4])
+    if riki == 1: teikums(diap[2],diap[3],7+treici)
     print(apg1,"\n")
     sk.clear()
     apg1.clear()

@@ -19,7 +19,7 @@ Tests	18
 Tests	19
 Tests	20
 Tests   21
-APGALVOJUMI:
+RĪKOJUMI:
 Tests	23
 Tests	24
 Tests	25
@@ -40,8 +40,8 @@ Tests	39
 Tests	40
 Tests	41
 Tests	42
-RĪKOJUMI:
-Tests   44  
+APGALVOJUMI:
+Tests   44
 Tests	45
 Tests	46
 Tests	47
