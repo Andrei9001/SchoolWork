@@ -54,10 +54,10 @@ for m in zodiaks:
     if riki == 1: teikums(diap[2],diap[3],7+treici)
     for w in apg1:
         ara += 1
-        rna += w
-        if ara == len(apg1): rna += "."
-        elif ara %2 > 0: rna += ", "
-        elif ara %2 == 0: rna += ". "
+        if ara == len(apg1): rna += w.capitalize() +"."
+        elif ara %2 > 0: rna += w.capitalize() + ", "
+        elif ara %2 == 0: rna += w + ". "
+        rna.capitalize()
     dna = rna.replace("\t", " ")
     rdna = dna.replace("\n", "")
     print(rdna,"\n")
