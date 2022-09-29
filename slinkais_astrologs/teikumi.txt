@@ -40,8 +40,8 @@ Tests	39
 Tests	40
 Tests	41
 Tests	42
-Tests	43
-Tests	44
+RĪKOJUMI:
+Tests   44  
 Tests	45
 Tests	46
 Tests	47
