@@ -1,5 +1,6 @@
 import os
 import os.path
+from queue import Empty
 import random
 
 #Globālie mainīgie=============================
@@ -11,10 +12,12 @@ apgalv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 apg1 = []   #   1. horoskopa teksts
 sk =[]
 ref = []
-diap = [1,49,52,100,102,251]
+diap = [1,50,52,101,103,252]
 riki = 0
 garums =[0,2]
-parbaude =[] #  temp
+parbaude =[]
+rna = ""
+ara = 0
 #Funkcijas======================================
 def teikums(x, y, z):
     while len(sk) < z:  #nejausi izvelas liniju
@@ -34,24 +37,9 @@ path = dir+path0.replace(" ","")
 with open(path, "r") as f:
     lasit = f.readlines()
 
-
-#for later?
-'''with open(path, 'r') as f:
-    for i, rinda in enumerate(f):
-        if i in apgalv:
-            Divd.append(rinda.strip())
-        elif i > 10:
-            break
-print(Divd)'''
-
 for j in range(20):
     ref.append(len(ref)*2)
 #   ref=[0,2,4,6,8,10]
-
-
-
-
-    
 
 for m in zodiaks:
     riki=random.randint(0,1)
@@ -64,7 +52,16 @@ for m in zodiaks:
         teikums(diap[0], diap[1], ref[3])
         teikums(diap[4], diap[5], ref[4])
     if riki == 1: teikums(diap[2],diap[3],7+treici)
-    print(apg1,"\n")
+    for w in apg1:
+        ara += 1
+        rna += w
+        if ara == len(apg1): rna += "."
+        elif ara %2 > 0: rna += ", "
+        elif ara %2 == 0: rna += ". "
+    dna = rna.replace("\t", " ")
+    rdna = dna.replace("\n", "")
+    print(rdna,"\n")
     sk.clear()
     apg1.clear()
-    #print(parbaude)
+    rna = ""
+    ara = 0
