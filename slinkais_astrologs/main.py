@@ -11,7 +11,7 @@ apgalv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 apg1 = []   #   1. horoskopa teksts
 sk =[]
 ref = []
-diap = [1,20,22,41,44,63]
+diap = [1,49,52,100,102,251]
 riki = 0
 garums =[0,2]
 parbaude =[] #  temp
@@ -67,4 +67,4 @@ for m in zodiaks:
     print(apg1,"\n")
     sk.clear()
     apg1.clear()
-    print(parbaude)
+    #print(parbaude)
