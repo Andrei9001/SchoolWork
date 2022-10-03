@@ -45,19 +45,18 @@ for m in zodiaks:
     riki=random.randint(0,1)
     treici=random.choice(garums)
     print(m)
-    if treici == 0:
+    if treici == 0:     #   Random garums
         teikums(diap[0], diap[1], ref[2])
         teikums(diap[4], diap[5], ref[3])
     elif treici == 2:
         teikums(diap[0], diap[1], ref[3])
         teikums(diap[4], diap[5], ref[4])
     if riki == 1: teikums(diap[2],diap[3],7+treici)
-    for w in apg1:
+    for w in apg1:      #   Gramatika
         ara += 1
-        if ara == len(apg1): rna += w.capitalize() +"."
-        elif ara %2 > 0: rna += w.capitalize() + ", "
+        #f ara == 1: rna.lower() + ", "
+        if ara %2 == 1: rna += w.capitalize() + ", "
         elif ara %2 == 0: rna += w + ". "
-        rna.capitalize()
     dna = rna.replace("\t", " ")
     rdna = dna.replace("\n", "")
     print(rdna,"\n")
