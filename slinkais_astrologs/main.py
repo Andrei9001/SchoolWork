@@ -8,7 +8,7 @@ from tkinter import *
 #Globālie mainīgie=============================
 dir = os.getcwd()
 zodiaks = ["Mežāzis", "Ūdensvīrs", "Zivis", "Auns", "Vērsis", "Dvīņi", "Vēzis", "Lauva", "Jaunava", "Svari", "Skorpions", "Strēlnieks"]
-path0 = "\slinkais_astrologs\ teikumi.txt"
+path0 = "\slinkais_astrologs\ "
 path1 = "teikumi.txt"
 path2 = "mainframe.txt"
 dienas = ["Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena", "Svētdiena"]
@@ -37,7 +37,7 @@ def teikums(x, y, z):
     
 
 #Darbības========================================
-path = dir+path0.replace(" ","")
+path = dir+path0.replace(" ","")+path1
 with open(path, "r") as f:
     lasit = f.readlines()
 #   ref=[0,2,4,6,8,10]
@@ -55,7 +55,11 @@ t = folder_selected + tt.replace(" ","")
 xt = open(t, "w")
 
 #   saglabā mapīti vēlākam
-edit = dir+path0.replace(" ","")
+edit = dir+path0.replace(" ","")+path2
+
+p = open(edit, "r+")
+zedit = p.readlines()
+
 
 
 #   MASTER
