@@ -2,11 +2,15 @@ import os
 import os.path
 from queue import Empty
 import random
+from tkinter import filedialog
+from tkinter import *
 
 #Globālie mainīgie=============================
 dir = os.getcwd()
 zodiaks = ["Mežāzis", "Ūdensvīrs", "Zivis", "Auns", "Vērsis", "Dvīņi", "Vēzis", "Lauva", "Jaunava", "Svari", "Skorpions", "Strēlnieks"]
 path0 = "\slinkais_astrologs\ teikumi.txt"
+path1 = "teikumi.txt"
+path2 = "mainframe.txt"
 dienas = ["Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena", "Svētdiena"]
 apgalv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 apg1 = []   #   1. horoskopa teksts
@@ -36,12 +40,26 @@ def teikums(x, y, z):
 path = dir+path0.replace(" ","")
 with open(path, "r") as f:
     lasit = f.readlines()
-
-for j in range(20):
-    ref.append(len(ref)*2)
 #   ref=[0,2,4,6,8,10]
+for j in range(20): 
+    ref.append(len(ref)*2)
 
-for m in zodiaks:
+
+
+#   Rada teksta failu
+root = Tk()
+root.withdraw()
+folder_selected = filedialog.askdirectory()
+tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
+t = folder_selected + tt.replace(" ","")
+xt = open(t, "w")
+
+#   saglabā mapīti vēlākam
+edit = dir+path0.replace(" ","")
+
+
+#   MASTER
+'''for m in zodiaks:
     riki=random.randint(0,1)
     treici=random.choice(garums)
     print(m)
@@ -63,4 +81,7 @@ for m in zodiaks:
     sk.clear()
     apg1.clear()
     rna = ""
-    ara = 0
+    ara = 0'''
+
+
+
