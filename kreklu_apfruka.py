@@ -7,13 +7,13 @@ FedEx = False
 
 #==============================
 def pasuti_tkreklus(x):
-    skaits = float(input("cik?"))
+    skaits = float(input("cik? "))
     return skaits*apdruka[x]
 
 #===============================
 while True:
     skaits = 0
-    print("\nPIEEJAMIE APDRUKAS VEIDI: \n1. teksts \n2. zīme \n3. foto")
+    print("\nPIEEJAMIE APDRUKAS VEIDI: \n1. teksts(5$) \n2. zīme(7$) \n3. foto(20$)")
     app = input("Izvēlieties apdrukas veidu: ")
     if app == "exit":
         break

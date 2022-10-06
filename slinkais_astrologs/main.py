@@ -33,10 +33,12 @@ def teikums(x, y, z):
             sk.append(num)  #pievieno izlieototo sarakstam
             apg1.append(lasit[num])
             teikums(diap[4], diap[5], ref[2])
-    
-    
-
+def taka():
+    tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
+    t = folder_selected + tt.replace(" ","")
+    return t
 #Darbības========================================
+
 path = dir+path0.replace(" ","")+path1
 with open(path, "r") as f:
     lasit = f.readlines()
@@ -50,19 +52,24 @@ for j in range(20):
 root = Tk()
 root.withdraw()
 folder_selected = filedialog.askdirectory()
-tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
-t = folder_selected + tt.replace(" ","")
-xt = open(t, "w")
-tx = open(t, "a")
+
+
 
 #   saglabā mapīti vēlākam
 edit = dir+path0.replace(" ","")+path2
 
 p = open(edit, "r+")
 zedit = p.readlines()
+if zedit[1] == "FOC":
+    #print("yoooooooo")
+    t = taka()
+else:
+    #folder_selected = zedit[1]
+    t = taka()
+xt = open(t, "w")
+tx = open(t, "a")
 
-
-
+print(zedit[1])
 
 
 #   MASTER
@@ -80,7 +87,10 @@ for m in zodiaks:
     for w in apg1:      #   Gramatika
         ara += 1
         #f ara == 1: rna.lower() + ", "
-        if ara %2 == 1: rna += w.capitalize() + ", "
+        if ara %2 == 1:
+            rna += w.capitalize()
+            if ara == len(apg1): rna += ". "
+            else: rna += ", "
         elif ara %2 == 0: rna += w + ". "
     dna = rna.replace("\t", " ")
     rdna = dna.replace("\n", "")
