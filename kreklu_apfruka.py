@@ -15,15 +15,11 @@ while True:
     skaits = 0
     print("\nPIEEJAMIE APDRUKAS VEIDI: \n1. teksts \n2. zīme \n3. foto")
     app = input("Izvēlieties apdrukas veidu: ")
-    if app == "teksts":
-        cena += pasuti_tkreklus("Teksts")
-    elif app == "zīme":
-        cena += pasuti_tkreklus("Zīme")
-    elif app == "foto":
-        cena += pasuti_tkreklus("Foto")
-    elif app == "exit":
+    if app == "exit":
         break
-
+    app = app.capitalize()
+    cena += pasuti_tkreklus(app)
+    
 piegade = input("Izvēlieties piegādi\nPIEZĪME: ja piegāde nav nepiciešama atstājiet tukšu: ")
 if piegade != "" and cena <= 50: FedEx =True
 

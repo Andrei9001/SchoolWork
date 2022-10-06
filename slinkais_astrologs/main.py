@@ -53,6 +53,7 @@ folder_selected = filedialog.askdirectory()
 tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
 t = folder_selected + tt.replace(" ","")
 xt = open(t, "w")
+tx = open(t, "a")
 
 #   saglabā mapīti vēlākam
 edit = dir+path0.replace(" ","")+path2
@@ -62,11 +63,13 @@ zedit = p.readlines()
 
 
 
+
+
 #   MASTER
-'''for m in zodiaks:
+for m in zodiaks:
     riki=random.randint(0,1)
     treici=random.choice(garums)
-    print(m)
+    #print(m)
     if treici == 0:     #   Random garums
         teikums(diap[0], diap[1], ref[2])
         teikums(diap[4], diap[5], ref[3])
@@ -81,11 +84,12 @@ zedit = p.readlines()
         elif ara %2 == 0: rna += w + ". "
     dna = rna.replace("\t", " ")
     rdna = dna.replace("\n", "")
-    print(rdna,"\n")
+    tx.write(m); tx.write("\n"); tx.write(rdna); tx.write("\n\n") # saraksta teksta failā
+    #print(rdna,"\n")
     sk.clear()
     apg1.clear()
     rna = ""
-    ara = 0'''
+    ara = 0
 
-
+tx.close()
 
