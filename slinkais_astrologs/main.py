@@ -47,13 +47,6 @@ with open(path, "r") as f:
 for j in range(20): 
     ref.append(len(ref)*2)
 
-
-
-#   Rada teksta failu
-
-
-
-
 #   saglabā mapīti vēlākam
 edit = dir+path0.replace(" ","")+path2
 
@@ -61,18 +54,14 @@ with open(edit, "r+")as p:
     zedit = p.readlines()
     if zedit[1] != " ":  #   pārbauda vai ir aizpildita adrese
         folder_selected = zedit[1].replace(" ","")
-        tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
-        t = folder_selected + tt.replace(" ","")
+        t = taka()
         t.replace("\n", "")
     elif zedit[1] == " ":
-        root = Tk()
+        root = Tk() #pajautā par mapīti
         root.withdraw()
         folder_selected = filedialog.askdirectory()
         p.write(folder_selected)
-        tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
-        t = folder_selected + tt.replace(" ","")
-    else: print(ref)
-        
+        t = taka()
 
 xt = open(t, "w")
 tx = open(t, "a")
