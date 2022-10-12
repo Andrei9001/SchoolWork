@@ -22,6 +22,7 @@ garums =[0,2]
 parbaude =[]
 rna = ""
 ara = 0
+
 #Funkcijas======================================
 def teikums(x, y, z):
     while len(sk) < z:  #nejausi izvelas liniju
@@ -49,23 +50,30 @@ for j in range(20):
 
 
 #   Rada teksta failu
-root = Tk()
-root.withdraw()
-folder_selected = filedialog.askdirectory()
+
 
 
 
 #   saglabā mapīti vēlākam
 edit = dir+path0.replace(" ","")+path2
 
-p = open(edit, "r+")
-zedit = p.readlines()
-if zedit[1] == "FOC":
-    #print("yoooooooo")
-    t = taka()
-else:
-    #folder_selected = zedit[1]
-    t = taka()
+with open(edit, "r+")as p:
+    zedit = p.readlines()
+    if zedit[1] != " ":  #   pārbauda vai ir aizpildita adrese
+        folder_selected = zedit[1].replace(" ","")
+        tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
+        t = folder_selected + tt.replace(" ","")
+        t.replace("\n", "")
+    elif zedit[1] == " ":
+        root = Tk()
+        root.withdraw()
+        folder_selected = filedialog.askdirectory()
+        p.write(folder_selected)
+        tt = "\ "+ str(input("Ievadiet nedēļu: ")) +".txt"
+        t = folder_selected + tt.replace(" ","")
+    else: print(ref)
+        
+
 xt = open(t, "w")
 tx = open(t, "a")
 
