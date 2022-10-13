@@ -1,19 +1,19 @@
 DIVDABJA TEICINI:
-tests-DIVD	1
-tests-DIVD	2
-tests-DIVD	3
-tests-DIVD	4
-tests-DIVD	5
-tests-DIVD	6
-tests-DIVD	7
-tests-DIVD	8
-tests-DIVD	9
-tests-DIVD	10
-tests-DIVD	11
-tests-DIVD	12
-tests-DIVD	13
-tests-DIVD	14
-tests-DIVD	15
+tu viegli kontaktēsies ar apkārtējiem, ātri atradīsi risinājumus sarežģītā situācijā
+šodien vari piedzīvot lielu piekrišanu romantisko attiecību meklētāju aprindās
+miers, patvērums un drošības sajūta nodarbinās tavu prātu
+būs labi, ja dienu pavadīsi horizontālā stāvoklī, divvientulībā ar grāmatu vai kādu viedierīci
+pirms maka atvēršanas, pārliecinies, ka tavas finanses ir drošās rokās
+šodien nopietnāk vajadzētu attiekties pret saviem finanšu resursiem
+ar lielu uzmanību apstiprini izdevumu sarakstu, pastāv iespēja kļūdīties
+visi centieni sevi parādīt un sastrādāto noprezentēt atdursies pret neredzīgiem un nedzirdīgiem kolēģiem un vadoņiem
+attiecību līkločus šomēnes sarežģīs tava īpašā jūtība pret tuvinieku sacīto un viņu reakcijām
+ciešajās attiecībās ar dzīvesbiedru varēsi sevi parādīt kā spēcīga personība
+alkās baudīt sajūsmu un atzinību, metīsi acis svešos dārzos
+sporta zāles un baseina apmeklējumus nevajadzētu atstāt novārtā
+savas patikšanas un prioritātes paturi pie sevi līdz brīdim, kad vadība uzdos tiešus un nepārprotamus jautājumus.
+darba process nesola lielu intensitāti, drīzāk ilgstoši relatīva miera periodi mīsies ar īsiem šturmēšanas brīžiem
+ja šajā laikā pamanīsies iepazīties ar kādu potenciālo partneri, nevajadzētu zīmēt nākotnes prognozes
 tests-DIVD	16
 tests-DIVD	17
 tests-DIVD	18
@@ -50,39 +50,39 @@ tests-DIVD	48
 tests-DIVD	49
 tests-DIVD	50
 RĪKOJUMI:
-tests-RIK	1
-tests-RIK	2
-tests-RIK	3
-tests-RIK	4
-tests-RIK	5
-tests-RIK	6
-tests-RIK	7
-tests-RIK	8
-tests-RIK	9
-tests-RIK	10
-tests-RIK	11
-tests-RIK	12
-tests-RIK	13
-tests-RIK	14
-tests-RIK	15
-tests-RIK	16
-tests-RIK	17
-tests-RIK	18
-tests-RIK	19
-tests-RIK	20
-tests-RIK	21
-tests-RIK	22
-tests-RIK	23
-tests-RIK	24
-tests-RIK	25
-tests-RIK	26
-tests-RIK	27
-tests-RIK	28
-tests-RIK	29
-tests-RIK	30
-tests-RIK	31
-tests-RIK	32
-tests-RIK	33
+mēģini uz visu paraudzīties filozofiski
+tikai pats visu nesabojā ar savu svārstību un neizlēmību
+pacenties saprast tuvu cilvēku pretenzijas – viņi vēl tev tikai labu
+tikai nemēģini to pārvērst vieglprātīgā flirtā, tad uz ilgstošām attiecībām nav ko cerēt
+ja tev piedāvā uzņemties līdera lomu, neatsaki – tā būs lieliska iespēja pierādīt sevi
+nenolaid rokas, neļauj vājuma brīdim izjaukt tavus plānus
+meklē iespēju papildināt enerģijas krājumus un atgūt pārliecību
+esi pacietīgs, rīkojies secīgi un mēģini neiestigt sīkumos
+mierīgi pārskati savus pēdējā laika izdevumus, īpaši tos, kas saistīti ar baudām un skaistumlietām
+ar nosvērtu prātu pavērtē savu ieņēmumu un izdevumu līkni un vajadzības, no kurām nepakam nevēlies atteikties
+laiskojoties pie aromātiskās kafijas tases, nepaslinko un uzraksti neatliekamo darbu sarakstiņu
+lai sakārtotu sevi, veic nelielu esošās situācijas revīziju
+jāpiebremzē visas attiecības un jāatgriežas pie veco solījumu nokārtošanas
+nevajadzētu sevi piespiest rosīties un rīkoties
+nevajadzētu aizdot naudu pat draugu lokam pieskaitāmiem cilvēkiem
+ar samērā optimistisku skatu uz dzīvi sāksi plānot šī gada atlikušos mēnešus
+sarunas un attiecības organizē tā, lai spētu atklāti paust savu viedokli
+lai kādi arī nebūtu vilinājumi un provokācijas, noturies pieklājības robežās un nepārkāp neredzamās robežas
+šim nolūkam jātērē tikai savi ietaupījumi, nevajadzētu aizņemties naudu vai kādu citu vērtību
+nepārsniedz pieļaujamo izdevumu limitu kā arī neaizņemies naudu
+sagatavojies, jo gaidāmas negaidītas izmaiņas dienas plānos
+darbā vairies no asajiem stūriem, īpaši ja ir darīšanas ar oponentiem un dumpiniekiem
+lai tiktu cauri mazākām asinīm, nāksies piekāpties un vienoties
+nekādas cimperlēšanās un pārdomu pauzes, piekrīti
+uzturi un veido labas, draudzīgas attiecības ar jaunajiem kolēģiem
+nepārdomātā avantūrā vari pazaudēt vairāk, nekā pieļāvi, tāpēc, ja riskē, tad tikai ar savu naudu
+dzen prom vēlmi pabūt vienatnē, jo vari sastapt patiesi interesantu cilvēku, ar kuru veidosies dziļa emocionāla saikne un dziļi saturīga komunikācija
+ja tev izdosies, kaut ko nopelnīt ārpus savas pamata darbavietas, tad nevienam par to nav jāzina
+mēģini savu laiku saplānot tā, lai apmierinātu gan savu tieksmi uz vientulību, gan nenodarītu pāri līdzcilvēkiem
+izglītojies, gan profesionāli, gan vispārcilvēciski
+velti laiku darba vides uzlabošanai, sakārtošanai
+atsakies no nevajadzīgā un mazsvarīgā
+lai kliedētu aizdomu ēnas par iespējamām slimībām, visprātīgākais būtu iziet vispusīgu medicīnisko apskati
 tests-RIK	34
 tests-RIK	35
 tests-RIK	36
@@ -101,37 +101,37 @@ tests-RIK	48
 tests-RIK	49
 tests-RIK	50
 APGALVOJUMI:
-tests-APG	1
-tests-APG	2
-tests-APG	3
-tests-APG	4
-tests-APG	5
-tests-APG	6
-tests-APG	7
-tests-APG	8
-tests-APG	9
-tests-APG	10
-tests-APG	11
-tests-APG	12
-tests-APG	13
-tests-APG	14
-tests-APG	15
-tests-APG	16
-tests-APG	17
-tests-APG	18
-tests-APG	19
-tests-APG	20
-tests-APG	21
-tests-APG	22
-tests-APG	23
-tests-APG	24
-tests-APG	25
-tests-APG	26
-tests-APG	27
-tests-APG	28
-tests-APG	29
-tests-APG	30
-tests-APG	31
+tev būs grūti piepildīt savas vēlmes
+šodien apstākļi būs labvēlīgi domubiedru meklējumiem
+panākumus gūsi tikai ar aktīvu un atbildīgu darbošanos
+raizes var sagādāt draugu problēmas
+no tevis tiks gaidīts padoms kritiskā brīdī
+priecīgus brīžus var sagādāt tikšanās ar senu, bet joprojām dzīvespriecīgu un ikdienas rutīnā neiestigušu draugu
+šī diena nav piemērota izbraukumam vai atpūtai brīvā dabā
+sarunas par naudu un politiku nevedīsies
+radu vidū radušās problēmām traucēs pilnvērtīgi baudīt brīvdienu izklaides
+izvēle palikt mājās būs tava, tāpēc nevienam neko nepārmet
+kavēsi un aizmirsīsi norunāto, apmaldīsies trijās ielās
+tavā dzīvē skanēs liegs blūzs un iepriekšējo dienu spriedze strauji ies mazumā
+tuvo attiecību jomā ar optimistisku skatu uz dzīvi sāksi plānot kādu kopīgu pasākumu
+dabā valdošais periodiskuma likums norāda uz laiku, ka ir jāveic izelpa un jāizbauda pauze
+šodien būs vajadzīgs miers un klusums, lai pastrādātu pie jautājumiem, kas saistīti ar mācībām un jaunu zinību apgūšanas perspektīvām
+var uzrasties negaidīti ciemiņi vai atklāsies defekti tik ilgi kārotajiem pirkumiem
+augstā pašvērtība ļaus viegli piekāpties, īpaši neprincipiālos jautājumos
+veselīgs kompromiss tev ļaus noturēties uz šaurās zelta vidusceļa līnijas
+cilvēki un apstākļi būs kā sazvērējušies un tik piespēlēs kādu klupienbīstamu situāciju
+lai pamatojumu objektīvi izpētītu, tev būs nepieciešams kritisks prāts un emocionāls miers
+mīlas spēļu laukumu šomēnes vajadzētu kontrolēt
+rūpi vairāk nāksies turēt par profesionālo sfēru
+nevarēsi ne atkauties no piedāvājumiem kaut kā izklaidēties
+nopietni un atzinīgi vērtēsi tikai tās attiecības, kuras balstītas uz kopējām interesēm
+profesionālajā sfērā tevi sagaida milzum daudz tikšanos, sarunu, semināru un citādu pulcēšanās formu
+tev svarīgākais ir atsijāt graudus no pelavām un to darīt absolūti neitrāli un lietišķi
+nebaidies un atceries, ka tavas sabiedrotās attiecību uzsākšanā būs smalkjūtība un dvēseles inteliģence
+partnera prasības šķitīs neadekvātas un rūpes apgrūtinošas
+caur savām pesimistiskajām sajūtām interpretēsi situācijas un citu attieksmes
+bet objektīvā bilde nebūt nebūs bēdīga vai nomācoša, tāpēc pietaupi savus apvainojumus un pats tiec galā ar savu nīgrumu
+tā kā tavs psihoemocionālais noskaņojums būs minora toņos, tad attiecīgi vari arī justies
 tests-APG	32
 tests-APG	33
 tests-APG	34

@@ -89,7 +89,7 @@ for m in zodiaks:
         #f ara == 1: rna.lower() + ", "
         if ara %2 == 1:
             rna += w.capitalize()
-            if ara == len(apg1): rna += ". "
+            if ara == len(apg1): rna += "! "
             else: rna += ", "
         elif ara %2 == 0: rna += w + ". "
     dna = rna.replace("\t", " ")
