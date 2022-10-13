@@ -41,7 +41,7 @@ def taka():
 #Darbības========================================
 
 path = dir+path0.replace(" ","")+path1
-with open(path, "r") as f:
+with open(path, "r", encoding="utf-8") as f:
     lasit = f.readlines()
 #   ref=[0,2,4,6,8,10]
 for j in range(20): 
@@ -50,7 +50,7 @@ for j in range(20):
 #   saglabā mapīti vēlākam
 edit = dir+path0.replace(" ","")+path2
 
-with open(edit, "r+")as p:
+with open(edit, "r+", encoding="utf-8")as p:
     zedit = p.readlines()
     if zedit[1] != " ":  #   pārbauda vai ir aizpildita adrese
         folder_selected = zedit[1].replace(" ","")
@@ -63,8 +63,8 @@ with open(edit, "r+")as p:
         p.write(folder_selected)
         t = taka()
 
-xt = open(t, "w")
-tx = open(t, "a")
+xt = open(t, "w", encoding="utf-8")
+tx = open(t, "a", encoding="utf-8")
 
 print(zedit[1])
 
