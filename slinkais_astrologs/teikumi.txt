@@ -14,8 +14,8 @@ sporta zāles un baseina apmeklējumus nevajadzētu atstāt novārtā
 savas patikšanas un prioritātes paturi pie sevi līdz brīdim, kad vadība uzdos tiešus un nepārprotamus jautājumus.
 darba process nesola lielu intensitāti, drīzāk ilgstoši relatīva miera periodi mīsies ar īsiem šturmēšanas brīžiem
 ja šajā laikā pamanīsies iepazīties ar kādu potenciālo partneri, nevajadzētu zīmēt nākotnes prognozes
-tests-DIVD	16
-tests-DIVD	17
+attiecībās ar draugiem tev noderēs savaldība un emociju kontrole
+ar prasību izvirzīšanu nesteidzies – var gadīties, ka kļūsti par saucēja balsi tuksnesī
 tests-DIVD	18
 tests-DIVD	19
 tests-DIVD	20
@@ -83,11 +83,11 @@ izglītojies, gan profesionāli, gan vispārcilvēciski
 velti laiku darba vides uzlabošanai, sakārtošanai
 atsakies no nevajadzīgā un mazsvarīgā
 lai kliedētu aizdomu ēnas par iespējamām slimībām, visprātīgākais būtu iziet vispusīgu medicīnisko apskati
-tests-RIK	34
-tests-RIK	35
-tests-RIK	36
-tests-RIK	37
-tests-RIK	38
+risinot finansiālus jautājumus, rūpīgi izvēlies cilvēkus, ar kuriem sadarbojies
+neesi lētticīgs, kāda starpnieka negodīga rīcība var sagādāt nopietnus zaudējumus
+to, ko nevari atrisināt paša spēkiem, atliec uz citu dienu
+mēģini izvairīties no aizbildnieciska toņa attiecībās ar līdzcilvēkiem
+pirms kādu pamāci, kā pareizi dzīvot, pārliecinies, ka esi pareizi izpratis situāciju
 tests-RIK	39
 tests-RIK	40
 tests-RIK	41
@@ -132,12 +132,12 @@ partnera prasības šķitīs neadekvātas un rūpes apgrūtinošas
 caur savām pesimistiskajām sajūtām interpretēsi situācijas un citu attieksmes
 bet objektīvā bilde nebūt nebūs bēdīga vai nomācoša, tāpēc pietaupi savus apvainojumus un pats tiec galā ar savu nīgrumu
 tā kā tavs psihoemocionālais noskaņojums būs minora toņos, tad attiecīgi vari arī justies
-tests-APG	32
-tests-APG	33
-tests-APG	34
-tests-APG	35
-tests-APG	36
-tests-APG	37
+tavs nesaudzīgais prasīgums neļaus izdarīt objektīvus secinājumus
+audz enerģijas un līdzekļu var nākties veltīt domubiedriem, viņu uzstājība spēs izvest tevi no pacietības
+priekšnieka vai kolēģu pavēlošais tonis var likties īpaši kaitinošs
+sīkas ķibeles nedrīkst kļūt par šķērsli ceļā uz izraudzīto mērķi
+tavu autoritāti var negatīvi ietekmēt tevis paša domu mainīgums un haotiskums
+attiecības ar apkārtējiem var būt saspringtas
 tests-APG	38
 tests-APG	39
 tests-APG	40
