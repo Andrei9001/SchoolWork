@@ -1,0 +1,14 @@
+<body>
+    <h1>Login</h1>
+    <h2>Is this you?</h2>
+
+    {% block content %}
+
+    <p>{{user}}</p>
+
+    <img src="{{photo}}">
+    <p></p>
+    <input type="submit", value="login" onclick="location.href = 'http://localhost:5000/home/'"/>
+    <a href="http://localhost:5000/">Not you?</a>
+</body>
+{% endblock %}

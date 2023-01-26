@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  <style>
+  .demo {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+  th, td {
+    background-color: #96D4D4;
+}
+
+
+
+
+  </style>
+<head>
+<title>Tabulas lapa</title>
+</head>
+
+<body>
+  <h1>Tabula ir redzama šeit.</h1>
+<table class="demo">
+  <!-- HEADER ROW -->
+  <tr>
+    {% for col in header %}
+    <th>{{ col }}</th>
+    {% endfor %}
+  </tr>
+ 
+  <!-- DATA ROWS -->
+  {% for row in rows %}
+  <tr class="demo">
+    {% for col in row %}
+    <td class="demo">{{ col }}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+</body>
+</html>

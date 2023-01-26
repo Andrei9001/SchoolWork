@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<body>
+    <div class="user_box">
+
+        <img src='{{photo}}', class="user_photo">
+        <a href="https://lv-lv.facebook.com/">{{user}}</a>
+        
+    </div>
+    <h1>Welcome, {{fname}}!</h1>
+</body>
+{% endblock %}
