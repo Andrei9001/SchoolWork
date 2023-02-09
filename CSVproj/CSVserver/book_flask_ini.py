@@ -4,6 +4,7 @@ import pandas as pd
 import json
 import requests
 
+#       & tiek apzīmēti jaunumi &
 
 #Flask
 app = Flask(__name__)
@@ -61,7 +62,7 @@ name = ''
 Mscript = ''
 
 #routes
-
+        # & Izveidoju login lapu, kas iegūst informāciju no randomuser.me API un kas atspoguļo lieotāju home lapā &
 @app.route('/')
 def login():
         global user
@@ -76,8 +77,6 @@ def login():
         Lname = name['last']
         user = name['title'] +' '+ Fname +' '+ Lname
         photo = user_DIC['results'][0]['picture']['large']
-        
-
         return render_template('login.html', user=user, photo=photo)
 
 @app.route('/home/')
@@ -114,6 +113,7 @@ def meme():
         joke = joke_dict["value"]
         return render_template('joke.html', joke=joke)
 
+        # & Izveidoju lapu, kas iegūst informāciju no mājaslapas html koda &
 @app.route('/about/', methods=['GET', 'POST'])
 def about():
         global name; global Mscript
@@ -140,7 +140,7 @@ def doctor():
   return render_template("doctor.html", tables=[database('doctor').to_html(classes='data')], titles=database('doctor').columns.values)
 
 
-
+        # & Papildus python kodam, tika izveidotas jaunas html lapas, kā arī atjaunināts izskats pašreizējām lapām lietojot css &
 
 
 
